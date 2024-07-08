@@ -43,6 +43,16 @@ let users = {
         'maxTime': 1,
         'distance': 0.03
     }
+    ,
+
+    'user5': {
+        'name': 'Terry',
+        'password': 'brutha',
+        'age': 23,
+        'maxTime': 17,
+        'distance': 192
+    }
+
 
 }
 
