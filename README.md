@@ -12,23 +12,25 @@ Make sure to have the following installed before proceeding:
 
 ## Directions for Setup
 
-1. Create or navigate to a directory where you would like to store the project
+- Create or navigate to a directory where you would like to store the project
 
-2. Open your terminal inside this directory
+- Open your terminal inside this directory
 
-3. Clone the project by doing `git clone https://github.com/CaneTM/exercise-app.git`
+- Clone the project by doing `git clone https://github.com/CaneTM/exercise-app.git`
 
-4. There should now be a new folder in your directory called `exercise-app`. Enter this folder by doing `cd exercise-app`
+- There should now be a new folder in your directory called `exercise-app`. Enter this folder by doing `cd exercise-app`
 
-5. Copy the `.env.template` file and name the copy `.env`. You can do so by running this command: `cp .env.template .env`
+- Install the necessary dependencies by doing `npm install`
 
-6. Open `exercise-app` in VS Code 
+- Copy the `.env.template` file and name the copy `.env`. You can do so by running this command: `cp .env.template .env`
 
-7. In the VS Code terminal (which you can access via `` ctrl+` ``), run `npm start`. This will run the application.
+- Open `exercise-app` in VS Code 
 
-8. In the VS Code terminal output, there should be two addresses with which you can access the application: a `localhost` address and a network IP address (which should be in the format of `XXX.XXX.XX.XX` or something similar). Copy the network IP address.
+- In the VS Code terminal (which you can access via `` ctrl+` ``), run `npm start`. This will run the application.
 
-9. In your `.env` file, paste the network IP address into the commented out `REACT_APP_SERVER_DOMAIN` environment variable, surrounding it in single quotes. This should look like `REACT_APP_SERVER_DOMAIN='XXX.XXX.XX.XX'`
+- In the VS Code terminal output, there should be two addresses with which you can access the application: a `localhost` address and a network IP address (which should be in the format of `XXX.XXX.XX.XX` or something similar). Copy the network IP address.
+
+- In your `.env` file, paste the network IP address into the commented out `REACT_APP_SERVER_DOMAIN` environment variable, surrounding it in single quotes. This should look like `REACT_APP_SERVER_DOMAIN='XXX.XXX.XX.XX'`
     
 **Going forward:** 
 
