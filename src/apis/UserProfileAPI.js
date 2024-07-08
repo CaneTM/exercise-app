@@ -1,3 +1,5 @@
+// This defines the endpoints needed to create, retrieve, update, or delete a user's data
+
 import express from 'express';
 
 const route1 = express.Router();
