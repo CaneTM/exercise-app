@@ -1,3 +1,5 @@
+// The "main" file for running the server and utilizing the APIs
+
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config'
