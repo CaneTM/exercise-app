@@ -4,12 +4,12 @@ import express from 'express';
 import cors from 'cors';
 import 'dotenv/config'
 
-import route1 from './UserProfileAPI.js';
+import userRoute from './UserProfileAPI.js';
 
 const app = express();
 
 app.use(cors());
-app.use('/users', route1);
+app.use('/users', userRoute);
 
 const { REACT_APP_SERVER_DOMAIN, REACT_APP_SERVER_PORT } = process.env;
 
