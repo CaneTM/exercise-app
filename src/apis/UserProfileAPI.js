@@ -18,6 +18,7 @@ userRoute.get('/:username', (req, res) => {
 });
 
 // Create a new user
+// This uses a POST request
 userRoute.post('/:username', (req, res) => {
 
 });
